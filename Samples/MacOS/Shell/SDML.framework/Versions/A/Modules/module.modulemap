@@ -1,0 +1,11 @@
+framework module SDML {
+  umbrella header "SDML.h"
+
+  export *
+  module * { export * }
+}
+
+module SDML.Swift {
+    header "SDML-Swift.h"
+    requires objc
+}

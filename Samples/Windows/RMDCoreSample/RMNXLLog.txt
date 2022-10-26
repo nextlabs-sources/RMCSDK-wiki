@@ -1,0 +1,34 @@
+{
+    "statusCode": 200,
+    "message": "Success",
+    "serverTime": 1484193294457,
+    "results": {
+        "data": {
+            "name": "AdhocSharing2-2016-12-30-03-47-02.pptx.nxl",
+            "duid": "63369AB6FBCAC06EDD007E65DC178F9F",
+            "logRecords": [{
+                "email": "naresh.nallagatla@nextlabs.com",
+                "operation": "Share",
+                "deviceType": "WebApp",
+                "deviceId": "118.189.77.114",
+                "accessTime": 1484115333911,
+                "accessResult": "Allow"
+            }, {
+                "email": "naresh.nallagatla@nextlabs.com",
+                "operation": "View",
+                "deviceType": "WebApp",
+                "deviceId": "118.189.77.114",
+                "accessTime": 1484115080584,
+                "accessResult": "Allow"
+            }, {
+                "email": "naresh.nallagatla@nextlabs.com",
+                "operation": "Protect",
+                "deviceType": "WebApp",
+                "deviceId": "118.189.77.114",
+                "accessTime": 1483069622214,
+                "accessResult": "Allow"
+            }]
+        },
+        "totalCount": 3
+    }
+}

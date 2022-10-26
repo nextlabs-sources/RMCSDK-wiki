@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C418BF11FEBA7D000AA0851 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C418BF01FEBA7D000AA0851 /* main.swift */; };
+		813FB7551FFF605B0059B333 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 813FB7521FFF605B0059B333 /* libcrypto.a */; };
+		813FB7561FFF605B0059B333 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 813FB7531FFF605B0059B333 /* libssl.a */; };
+		813FB7571FFF605B0059B333 /* librmsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 813FB7541FFF605B0059B333 /* librmsdk.a */; };
+		813FB75A1FFF66EE0059B333 /* TenantTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 813FB7591FFF66EE0059B333 /* TenantTest.mm */; };
+		8190BE6A20217072000701AE /* CoreBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE6220217072000701AE /* CoreBridge.mm */; };
+		8190BE6B20217072000701AE /* OCMembership.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE6520217072000701AE /* OCMembership.mm */; };
+		8190BE6C20217072000701AE /* OCTenant.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE6720217072000701AE /* OCTenant.mm */; };
+		8190BE6D20217072000701AE /* OCUser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE6920217072000701AE /* OCUser.mm */; };
+		8190BE7020219640000701AE /* TenantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE6F20219640000701AE /* TenantTests.swift */; };
+		8190BE722021A46C000701AE /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE712021A46C000701AE /* UserTests.swift */; };
+		8190BE752021AC8C000701AE /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE742021AC8C000701AE /* CommonUtil.swift */; };
+		8190BE8E2021BBD6000701AE /* OCTokenPool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE8D2021BBD6000701AE /* OCTokenPool.mm */; };
+		8190BE912021C067000701AE /* OCToken.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8190BE902021C067000701AE /* OCToken.mm */; };
+		81AF603B1FECA5C50044A279 /* UserTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81AF603A1FECA5C50044A279 /* UserTest.mm */; };
+		81CC6A6B2022EBA10030ED53 /* OCCertificate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81CC6A6A2022EBA10030ED53 /* OCCertificate.mm */; };
+		81CC6A6E2022EE850030ED53 /* OCNXLFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81CC6A6D2022EE850030ED53 /* OCNXLFile.mm */; };
+		81CFEA2C200359130086D535 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81CFEA26200359130086D535 /* common.cpp */; };
+		81CFEA2E200359130086D535 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81CFEA2A200359130086D535 /* stdafx.cpp */; };
+		81CFEA3120035D150086D535 /* TokenTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81CFEA3020035D150086D535 /* TokenTest.mm */; };
+		81CFEA34200360240086D535 /* NXLTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81CFEA33200360240086D535 /* NXLTest.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C418BEB1FEBA7D000AA0851 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C418BED1FEBA7D000AA0851 /* RMDCoreSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RMDCoreSample; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C418BF01FEBA7D000AA0851 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		813FB7521FFF605B0059B333 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = RMDCoreSample/Framework/libcrypto.a; sourceTree = "<group>"; };
+		813FB7531FFF605B0059B333 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = RMDCoreSample/Framework/libssl.a; sourceTree = "<group>"; };
+		813FB7541FFF605B0059B333 /* librmsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librmsdk.a; path = RMDCoreSample/Framework/librmsdk.a; sourceTree = "<group>"; };
+		813FB7581FFF66EE0059B333 /* TenantTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenantTest.h; sourceTree = "<group>"; };
+		813FB7591FFF66EE0059B333 /* TenantTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TenantTest.mm; sourceTree = "<group>"; };
+		8190BE6120217072000701AE /* CoreBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBridge.h; sourceTree = "<group>"; };
+		8190BE6220217072000701AE /* CoreBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoreBridge.mm; sourceTree = "<group>"; };
+		8190BE6420217072000701AE /* OCMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMembership.h; sourceTree = "<group>"; };
+		8190BE6520217072000701AE /* OCMembership.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCMembership.mm; sourceTree = "<group>"; };
+		8190BE6620217072000701AE /* OCTenant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTenant.h; sourceTree = "<group>"; };
+		8190BE6720217072000701AE /* OCTenant.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCTenant.mm; sourceTree = "<group>"; };
+		8190BE6820217072000701AE /* OCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCUser.h; sourceTree = "<group>"; };
+		8190BE6920217072000701AE /* OCUser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCUser.mm; sourceTree = "<group>"; };
+		8190BE6F20219640000701AE /* TenantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantTests.swift; sourceTree = "<group>"; };
+		8190BE712021A46C000701AE /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		8190BE742021AC8C000701AE /* CommonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
+		8190BE772021B0C7000701AE /* RMSBasicLogin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RMSBasicLogin.txt; sourceTree = "<group>"; };
+		8190BE782021B0C7000701AE /* RMSCertsTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RMSCertsTest.txt; sourceTree = "<group>"; };
+		8190BE792021B0C7000701AE /* RMSTenantTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RMSTenantTest.txt; sourceTree = "<group>"; };
+		8190BE7A2021B0C7000701AE /* RMSTokenTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RMSTokenTest.txt; sourceTree = "<group>"; };
+		8190BE7B2021B0C7000701AE /* RMSTokenTest.txt.nxl */ = {isa = PBXFileReference; lastKnownFileType = file; path = RMSTokenTest.txt.nxl; sourceTree = "<group>"; };
+		8190BE7C2021B0C7000701AE /* RMSTokenTest1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RMSTokenTest1.txt; sourceTree = "<group>"; };
+		8190BE8C2021BBD6000701AE /* OCTokenPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTokenPool.h; sourceTree = "<group>"; };
+		8190BE8D2021BBD6000701AE /* OCTokenPool.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCTokenPool.mm; sourceTree = "<group>"; };
+		8190BE8F2021C067000701AE /* OCToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCToken.h; sourceTree = "<group>"; };
+		8190BE902021C067000701AE /* OCToken.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCToken.mm; sourceTree = "<group>"; };
+		81A462981FEBB20300765BD5 /* RMDCoreSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMDCoreSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		81AF603A1FECA5C50044A279 /* UserTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = UserTest.mm; sourceTree = "<group>"; };
+		81AF603C1FECA5FA0044A279 /* UserTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTest.h; sourceTree = "<group>"; };
+		81CC6A662022BE4D0030ED53 /* RestfulProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestfulProtocol.h; sourceTree = "<group>"; };
+		81CC6A692022EBA10030ED53 /* OCCertificate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCertificate.h; sourceTree = "<group>"; };
+		81CC6A6A2022EBA10030ED53 /* OCCertificate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCCertificate.mm; sourceTree = "<group>"; };
+		81CC6A6C2022EE850030ED53 /* OCNXLFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCNXLFile.h; sourceTree = "<group>"; };
+		81CC6A6D2022EE850030ED53 /* OCNXLFile.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCNXLFile.mm; sourceTree = "<group>"; };
+		81CFEA26200359130086D535 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		81CFEA27200359130086D535 /* common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
+		81CFEA2A200359130086D535 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		81CFEA2B200359130086D535 /* stdafx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stdafx.hpp; sourceTree = "<group>"; };
+		81CFEA2F20035D150086D535 /* TokenTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenTest.h; sourceTree = "<group>"; };
+		81CFEA3020035D150086D535 /* TokenTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TokenTest.mm; sourceTree = "<group>"; };
+		81CFEA32200360240086D535 /* NXLTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXLTest.h; sourceTree = "<group>"; };
+		81CFEA33200360240086D535 /* NXLTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NXLTest.mm; sourceTree = "<group>"; };
+		81CFEA59200384410086D535 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C418BEA1FEBA7D000AA0851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813FB7551FFF605B0059B333 /* libcrypto.a in Frameworks */,
+				813FB7561FFF605B0059B333 /* libssl.a in Frameworks */,
+				813FB7571FFF605B0059B333 /* librmsdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C418BE41FEBA7D000AA0851 = {
+			isa = PBXGroup;
+			children = (
+				7C418BEF1FEBA7D000AA0851 /* RMDCoreSample */,
+				7C418BEE1FEBA7D000AA0851 /* Products */,
+				81A462901FEBB17F00765BD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C418BEE1FEBA7D000AA0851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C418BED1FEBA7D000AA0851 /* RMDCoreSample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C418BEF1FEBA7D000AA0851 /* RMDCoreSample */ = {
+			isa = PBXGroup;
+			children = (
+				7C418BF01FEBA7D000AA0851 /* main.swift */,
+				81CFEA59200384410086D535 /* ReadMe.md */,
+				81AF60391FECA5820044A279 /* Tests */,
+				8190BE6020217072000701AE /* OCToCore */,
+				81CFEA25200359130086D535 /* Util */,
+				813FB75B1FFF6A1C0059B333 /* Supporting Files */,
+			);
+			path = RMDCoreSample;
+			sourceTree = "<group>";
+		};
+		813FB75B1FFF6A1C0059B333 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8190BE762021B0C7000701AE /* Resource */,
+				81A462981FEBB20300765BD5 /* RMDCoreSample-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8190BE6020217072000701AE /* OCToCore */ = {
+			isa = PBXGroup;
+			children = (
+				8190BE6120217072000701AE /* CoreBridge.h */,
+				8190BE6220217072000701AE /* CoreBridge.mm */,
+				81CC6A662022BE4D0030ED53 /* RestfulProtocol.h */,
+				8190BE6320217072000701AE /* OCWrapper */,
+			);
+			path = OCToCore;
+			sourceTree = "<group>";
+		};
+		8190BE6320217072000701AE /* OCWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				8190BE6420217072000701AE /* OCMembership.h */,
+				8190BE6520217072000701AE /* OCMembership.mm */,
+				8190BE6620217072000701AE /* OCTenant.h */,
+				8190BE6720217072000701AE /* OCTenant.mm */,
+				8190BE6820217072000701AE /* OCUser.h */,
+				8190BE6920217072000701AE /* OCUser.mm */,
+				8190BE8C2021BBD6000701AE /* OCTokenPool.h */,
+				8190BE8D2021BBD6000701AE /* OCTokenPool.mm */,
+				8190BE8F2021C067000701AE /* OCToken.h */,
+				8190BE902021C067000701AE /* OCToken.mm */,
+				81CC6A692022EBA10030ED53 /* OCCertificate.h */,
+				81CC6A6A2022EBA10030ED53 /* OCCertificate.mm */,
+				81CC6A6C2022EE850030ED53 /* OCNXLFile.h */,
+				81CC6A6D2022EE850030ED53 /* OCNXLFile.mm */,
+			);
+			path = OCWrapper;
+			sourceTree = "<group>";
+		};
+		8190BE732021A5F9000701AE /* OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				813FB7581FFF66EE0059B333 /* TenantTest.h */,
+				813FB7591FFF66EE0059B333 /* TenantTest.mm */,
+				81AF603C1FECA5FA0044A279 /* UserTest.h */,
+				81AF603A1FECA5C50044A279 /* UserTest.mm */,
+				81CFEA2F20035D150086D535 /* TokenTest.h */,
+				81CFEA3020035D150086D535 /* TokenTest.mm */,
+				81CFEA32200360240086D535 /* NXLTest.h */,
+				81CFEA33200360240086D535 /* NXLTest.mm */,
+			);
+			path = OCTests;
+			sourceTree = "<group>";
+		};
+		8190BE762021B0C7000701AE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8190BE772021B0C7000701AE /* RMSBasicLogin.txt */,
+				8190BE782021B0C7000701AE /* RMSCertsTest.txt */,
+				8190BE792021B0C7000701AE /* RMSTenantTest.txt */,
+				8190BE7A2021B0C7000701AE /* RMSTokenTest.txt */,
+				8190BE7B2021B0C7000701AE /* RMSTokenTest.txt.nxl */,
+				8190BE7C2021B0C7000701AE /* RMSTokenTest1.txt */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		81A462901FEBB17F00765BD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				813FB7521FFF605B0059B333 /* libcrypto.a */,
+				813FB7541FFF605B0059B333 /* librmsdk.a */,
+				813FB7531FFF605B0059B333 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81AF60391FECA5820044A279 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8190BE732021A5F9000701AE /* OCTests */,
+				8190BE6F20219640000701AE /* TenantTests.swift */,
+				8190BE712021A46C000701AE /* UserTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		81CFEA25200359130086D535 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8190BE742021AC8C000701AE /* CommonUtil.swift */,
+				81CFEA2A200359130086D535 /* stdafx.cpp */,
+				81CFEA2B200359130086D535 /* stdafx.hpp */,
+				81CFEA27200359130086D535 /* common.hpp */,
+				81CFEA26200359130086D535 /* common.cpp */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C418BEC1FEBA7D000AA0851 /* RMDCoreSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C418BF41FEBA7D000AA0851 /* Build configuration list for PBXNativeTarget "RMDCoreSample" */;
+			buildPhases = (
+				7C418BE91FEBA7D000AA0851 /* Sources */,
+				7C418BEA1FEBA7D000AA0851 /* Frameworks */,
+				7C418BEB1FEBA7D000AA0851 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMDCoreSample;
+			productName = RMDCoreSample;
+			productReference = 7C418BED1FEBA7D000AA0851 /* RMDCoreSample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C418BE51FEBA7D000AA0851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = nextlabs;
+				TargetAttributes = {
+					7C418BEC1FEBA7D000AA0851 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7C418BE81FEBA7D000AA0851 /* Build configuration list for PBXProject "RMDCoreSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C418BE41FEBA7D000AA0851;
+			productRefGroup = 7C418BEE1FEBA7D000AA0851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C418BEC1FEBA7D000AA0851 /* RMDCoreSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C418BE91FEBA7D000AA0851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CFEA2C200359130086D535 /* common.cpp in Sources */,
+				81CC6A6B2022EBA10030ED53 /* OCCertificate.mm in Sources */,
+				7C418BF11FEBA7D000AA0851 /* main.swift in Sources */,
+				81CFEA34200360240086D535 /* NXLTest.mm in Sources */,
+				8190BE6A20217072000701AE /* CoreBridge.mm in Sources */,
+				8190BE6B20217072000701AE /* OCMembership.mm in Sources */,
+				8190BE7020219640000701AE /* TenantTests.swift in Sources */,
+				8190BE752021AC8C000701AE /* CommonUtil.swift in Sources */,
+				8190BE912021C067000701AE /* OCToken.mm in Sources */,
+				8190BE6C20217072000701AE /* OCTenant.mm in Sources */,
+				81CFEA2E200359130086D535 /* stdafx.cpp in Sources */,
+				81CFEA3120035D150086D535 /* TokenTest.mm in Sources */,
+				81AF603B1FECA5C50044A279 /* UserTest.mm in Sources */,
+				813FB75A1FFF66EE0059B333 /* TenantTest.mm in Sources */,
+				81CC6A6E2022EE850030ED53 /* OCNXLFile.mm in Sources */,
+				8190BE6D20217072000701AE /* OCUser.mm in Sources */,
+				8190BE722021A46C000701AE /* UserTests.swift in Sources */,
+				8190BE8E2021BBD6000701AE /* OCTokenPool.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C418BF21FEBA7D000AA0851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C418BF31FEBA7D000AA0851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7C418BF51FEBA7D000AA0851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F6YQ3PC52;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				HEADER_SEARCH_PATHS = ../../../include;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RMDCoreSample",
+					"$(PROJECT_DIR)/RMDCoreSample/Framework",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "-v";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				SWIFT_OBJC_BRIDGING_HEADER = "RMDCoreSample/RMDCoreSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7C418BF61FEBA7D000AA0851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F6YQ3PC52;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				HEADER_SEARCH_PATHS = ../../../include;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RMDCoreSample",
+					"$(PROJECT_DIR)/RMDCoreSample/Framework",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "-v";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				SWIFT_OBJC_BRIDGING_HEADER = "RMDCoreSample/RMDCoreSample-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C418BE81FEBA7D000AA0851 /* Build configuration list for PBXProject "RMDCoreSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C418BF21FEBA7D000AA0851 /* Debug */,
+				7C418BF31FEBA7D000AA0851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C418BF41FEBA7D000AA0851 /* Build configuration list for PBXNativeTarget "RMDCoreSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C418BF51FEBA7D000AA0851 /* Debug */,
+				7C418BF61FEBA7D000AA0851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C418BE51FEBA7D000AA0851 /* Project object */;
+}

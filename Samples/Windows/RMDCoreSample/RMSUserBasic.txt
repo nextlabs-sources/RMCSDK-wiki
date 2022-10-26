@@ -1,0 +1,8 @@
+{
+    "statusCode": 200,
+    "message": "OK",
+    "extra": {
+        "email": "client_0001@nextlabs.com",
+        "displayName": "user_0001",
+    }
+}

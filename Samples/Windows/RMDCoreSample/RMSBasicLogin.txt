@@ -1,0 +1,30 @@
+{
+   "statusCode":200,
+   "message":"Authorized",
+   "serverTime":1498190244565,
+   "extra":{
+      "userId":13,
+      "ticket":"B122849DC1E2661CE5CF693817DA7F29",
+      "tenantId":"21b06c79-baab-419d-8197-bad3ce3f4476",
+      "ttl":1498276644563,
+      "name":"Kelly Huang",
+      "email":"kelly.huang@nextlabs.com",
+      "idpType":0,
+      "memberships":[
+         {
+            "id":"m17@skydrm.com",
+            "type":0,
+            "tenantId":"21b06c79-baab-419d-8197-bad3ce3f4476",
+            "projectId":1
+         },
+         {
+            "id":"m28@t-5948bf18ba1749e8a6a99b66edba429d",
+            "type":0,
+            "tenantId":"8360d053-9f7d-4bcc-a265-dab4a31a92fd",
+            "projectId":9
+         }
+      ],
+      "defaultTenant":"skydrm.com",
+      "defaultTenantUrl":"https://rmtest.nextlabs.solutions/rms"
+   }
+}

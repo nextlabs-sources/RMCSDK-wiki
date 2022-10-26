@@ -1,0 +1,47 @@
+{
+    "statusCode": 200,
+    "message": "OK",
+    "serverTime": 1487902124167,
+    "results": {
+        "usage": 322560,
+        "quota": 26843545600,
+        "folderLastUpdatedTime": 1499743566000,
+        "detail": {      
+            "totalFiles": 2,     
+            "files": [
+                 {
+                    "id": "a0725c74-cbd6-4c08-889f-2a2f9336f719",
+                    "duid": "BEE96295E8AD9AA51459CFD559BAA0BE",
+                    "pathDisplay": "/zabbix_mail-2017-02-23-13-52-28.PNG.nxl",
+                    "pathId": "/zabbix_mail-2017-02-23-13-52-28.png.nxl",
+                    "name": "zabbix_mail-2017-02-23-13-52-28.PNG.nxl",
+                    "lastModified": 1487829150000,
+                    "creationTime": 1487829150000,
+                    "size": 28672,
+                    "folder": false,
+                    "owner": {
+                        "userId": 1,
+                        "displayName": "rupali.choudhury@nextlabs.com",
+                        "email": "rupali.choudhury@nextlabs.com"
+                    }
+                },
+                {
+                    "id": "acadf108-ec7c-42ca-aeaf-7b4ed783cd7c",
+                    "duid": "3D9C27F90FE34ED7C4643D98BF1A1A3E",
+                    "pathDisplay": "/ZabbixArchitecture-2017-02-23-13-52-35.PNG.nxl",
+                    "pathId": "/zabbixarchitecture-2017-02-23-13-52-35.png.nxl",
+                    "name": "ZabbixArchitecture-2017-02-23-13-52-35.PNG.nxl",
+                    "lastModified": 1487829157000,
+                    "creationTime": 1487829157000,
+                    "size": 293888,
+                    "folder": false,
+                    "owner": {
+                        "userId": 1,
+                        "displayName": "rupali.choudhury@nextlabs.com",
+                        "email": "rupali.choudhury@nextlabs.com"
+                    }
+                }
+            ]
+        }
+    }
+}

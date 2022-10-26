@@ -1,0 +1,7 @@
+1;no;https://rmtest.nextlabs.solutions;jt2go;https://jt2go.rmtest.nextlabs.solutions/rms;
+2;no;https://rmtest.nextlabs.solutions;skydrm.com;https://rmtest.nextlabs.solutions/rms;
+3;no;https://testdrm.nextlabs.com;skydrm.com;https://testdrm.nextlabs.com/rms;
+4;no;https://skydrm.nextlabs.com;skydrm.com;https://skydrm.nextlabs.com/rms;
+5;no;;;https://skydrm.nextlabs.com/rms;
+6;no;https://rmtest1234.nextlabs.com;skydrm.com;https://skydrm.nextlabs.com/rms;
+7;yes;https://rms-centos7303.qapf1.qalab01.nextlabs.com:8443;74ff9f18-c502-493a-a1e2-18740e3dc356;https://rms-centos7303.qapf1.qalab01.nextlabs.com:8444/rms;

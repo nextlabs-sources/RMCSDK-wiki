@@ -1,0 +1,102 @@
+{
+  "statusCode": 200,
+  "message": "OK",
+  "serverTime": 1484537953900,
+  "results": {
+    "totalProjects":2,
+    "detail": [
+         {
+            "id": 13,
+            "name": "Project Nova",
+            "description": "Collaborate in project nova",
+            "displayName": "Project Nova",
+            "creationTime": 1483605615817,
+            "totalMembers": 1,
+            "totalFiles": 0,
+            "ownedByMe": true,
+            "owner": {
+              "userId": 2,
+              "name": "admin@nextlabs.com",
+              "email": "admin@nextlabs.com"
+            },
+            "accountType": "PROJECT_TRIAL",
+            "trialEndTime": 148706243714,
+            "projectMembers": {
+              "totalMembers": 5,
+              "members": [
+                {
+                  "userId": 57,
+                  "displayName": "althaf nextlabs",
+                  "email": "rmsuser720@gmail.com",
+                  "creationTime": 1496886387439
+                },
+                {
+                  "userId": 4,
+                  "displayName": "althaf.ashraf@nextlabs.com",
+                  "email": "althaf.ashraf@nextlabs.com",
+                  "creationTime": 1496885208735
+                },
+                {
+                  "userId": 56,
+                  "displayName": "althaf.rms1@gmail.com",
+                  "email": "althaf.rms1@gmail.com",
+                  "creationTime": 1496886126044
+                },
+                {
+                  "userId": 7,
+                  "displayName": "mohammed althaf",
+                  "email": "althaf1088@gmail.com",
+                  "creationTime": 1496886413244
+                },
+                {
+                  "userId": 55,
+                  "displayName": "rmsuser0@gmail.com",
+                  "email": "rmsuser0@gmail.com",
+                  "creationTime": 1496886176971
+                }
+              ]
+            }
+          },
+          {
+            "id": 14,
+            "name": "Project SkyDRM",
+            "description": "Share your documents securely",
+            "displayName": "Project SkyDRM",
+            "creationTime": 1483606243712,
+            "totalMembers": 1,
+            "totalFiles": 0,
+            "ownedByMe": true,
+            "owner": {
+              "userId": 2,
+              "name": "admin@nextlabs.com",
+              "email": "admin@nextlabs.com"
+            },
+            "accountType": "PROJECT_TRIAL",
+            "trialEndTime": 148706243714,
+            "projectMembers": {
+              "totalMembers": 3,
+              "members": [
+                {
+                  "userId": 57,
+                  "displayName": "althaf nextlabs",
+                  "email": "rmsuser720@gmail.com",
+                  "creationTime": 1496886387439
+                },
+                {
+                  "userId": 4,
+                  "displayName": "althaf.ashraf@nextlabs.com",
+                  "email": "althaf.ashraf@nextlabs.com",
+                  "creationTime": 1496885208735
+                },
+                {
+                  "userId": 55,
+                  "displayName": "rmsuser0@gmail.com",
+                  "email": "rmsuser0@gmail.com",
+                  "creationTime": 1496886176971
+                }
+              ]
+            }
+          }
+        ]
+  }
+}

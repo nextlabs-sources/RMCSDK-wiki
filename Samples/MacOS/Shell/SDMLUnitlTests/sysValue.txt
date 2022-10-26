@@ -1,0 +1,1 @@
+{"ClientGUID":"9A1C52684AA52CC46913E716CF8A01B9","DeviceName":"hz-macmini01","PlatformID":300,"ProcessorArch":0,"ProductInfo":{"AppName":"RMDSDK","MajorVer":0,"MinorVer":0,"BuildNo":0,"AppPath":"","Publisher":"","NewVersion":"","DownloadURL":"","Checksum":""}}

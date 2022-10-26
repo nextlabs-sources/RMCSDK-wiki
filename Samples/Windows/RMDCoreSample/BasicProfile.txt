@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "message": "OK",
+    "serverTime": 1526992169665,
+    "results": {
+        "emails": [
+            "3057318205@qq.com"
+        ],
+        "displayName": "RMCCOreProfile"
+    }
+}

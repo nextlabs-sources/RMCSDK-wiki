@@ -1,0 +1,18 @@
+1;no;/Users/mini/Desktop/apitest/nxl file/1-2018-06-05-16-39-53.pptm.nxl;/Users/mini/Desktop/apitest/decrypt;true;
+2;no;/Users/mini/Desktop/apitest/nxl file/polia regu.-2018-06-05-16-23-13.SLDPRT.nxl;/Users/mini/Desktop/apitest/decrypt;true;
+3;no;/Users/mini/Desktop/apitest/nxl file/tag-2018-06-05-16-23-13.PDF.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+4;no;/Users/mini/Desktop/apitest/nxl file/荷包蛋 copy-2018-06-05-16-23-13.jpg.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+5;no;/Users/mini/Desktop/apitest/nxl file/nothisfile.jpg.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+6;no;/Users/mini/Library/Application Support/com.skydrm.RMCAPITest/skydrm.com/36/cache/tag-2018-06-05-16-23-13.PDF.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+7;no;/Users/mini/Desktop/apitest/nxl file/1061860928_main-2018-06-05-16-06-28.js.nxl;/Volumes/autonas01/Public/Users/Julie/MAC testing/API;false
+8;no;/Volumes/transfer/julie/RMC for MAC/API/nxl file/Iris Mechanism SE-2018-06-05-16-20-07.par.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+9;no;/Users/mini/Desktop/apitest/nxl file/tag-2018-06-05-16-23-13.PDF.nxl;/Users/mini/Desktop/apitest/nothisfolder;false;
+10;no;/Users/mini/Desktop/apitest/nxl file/1 copy-2018-06-19-07-49-28.jpg.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+11;no;/Users/mini/Desktop/apitest/nxl file/nothisfile.doc.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+12;no;/Users/mini/Desktop/apitest/nxl file/4 ContentAnalysis_FunctionalSpec1allrights-2018-06-20-10-20-23.PDF.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+13;no;/Users/mini/Desktop/apitest/nxl file/Audi R8 S-2018-06-20-10-20-22.SLDASM.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+14;no;/Users/mini/Desktop/apitest/nxl file/file icon-2018-06-20-10-20-23.gif.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+15;no;/Users/mini/Library/Application Support/com.skydrm.RMCAPITest/rmtest.nextlabs.solutions/skydrm.com/36/cache/1 copy-2018-06-19-07-49-28.jpg.nxl;/Volumes/transfer/julie/RMC for MAC/API/nxl file;true;
+16;no;/Volumes/transfer/julie/RMC for MAC/API/nxl file/wallholder-2018-06-20-03-29-43.igs.nxl;/Volumes/transfer/julie/RMC for MAC/API/nxl file/decrypt;false;
+17;no;/Users/mini/Downloads/IMG_1076-2018-06-20-07-49-46.PNG.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+18;yes;/Users/mini/Downloads/test-2018-06-20-07-54-36.txt.nxl;/Users/mini/Desktop/apitest/decrypt;false;

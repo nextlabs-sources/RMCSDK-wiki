@@ -1,0 +1,12 @@
+{
+   "statusCode":200,
+   "message":"OK",
+   "serverTime":1484210436761,
+   "results":{
+      "newRecipients":[
+         "test@test.com", "test1@test.com", "test2@test.com", "test2@nextlabs.com"
+      ],
+      "removedRecipients":[
+      ]
+   }
+} 

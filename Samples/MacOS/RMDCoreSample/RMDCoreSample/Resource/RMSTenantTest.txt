@@ -1,0 +1,1 @@
+{"statusCode":200,"message":"OK","serverTime":1512505670638,"results":{"server":"https://rmtest.nextlabs.solutions/rms"}}

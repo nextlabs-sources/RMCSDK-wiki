@@ -1,0 +1,13 @@
+{
+   "statusCode":200,
+   "message":"OK",
+   "serverTime":1477623263276,
+   "results":{
+      "name":"ABC.txt.nxl",
+      "lastModified":1477637785817,
+      "size":7212,
+      "duid": "30C7EE51ABF57D59E77A5DEDFDA77A9A",
+      "pathId": "/nxl_myvault_nxl/abc.txt.nxl",
+      "pathDisplay": "/ABC.txt.nxl"
+   }
+}

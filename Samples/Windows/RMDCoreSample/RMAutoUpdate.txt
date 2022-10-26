@@ -1,0 +1,9 @@
+{
+    "statusCode": 200,
+    "message": "OK",
+    "results": {
+        "newVersion": "9.1.1681",
+        "downloadURL": "https://skydrm.com/download/rmc/windows/x64/rmc_9_1_1681_x64.cab",
+        "sha1Checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    }
+}

@@ -1,0 +1,6 @@
+1;no;1\n-2018-05-29-17-58-28.xlsb.nxl;/Users/mini/Desktop/apitest/decrypt;true;
+2;no;Audi R8 S-2018-05-29-15-52-18.SLDASM.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+3;no;荷包蛋 copy-2018-06-05-14-22-45.jpg.nxl;/Volumes/transfer/Julie/;true;
+4;no;1-2018-06-05-16-39-54.pptx;/Users/mini/Desktop/apitest/decrypt;false;
+5;no;1-2018-06-19-16-38-36.doc.nxl;/Users/mini/Desktop/apitest/decrypt;false;
+6;yes;json1-2018-06-27-11-25-05.txt;/Users/mini/Desktop/apitest/decrypt;false;

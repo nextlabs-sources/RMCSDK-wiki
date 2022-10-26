@@ -1,0 +1,11 @@
+{
+   "statusCode":200,
+   "message":"OK",
+   "serverTime":1479283719376,
+   "results":{
+      "usage":2502740,
+      "quota":1000000000,
+	  "vaultQuota":2147483648,
+	  "myVaultUsage":505856
+   }
+}

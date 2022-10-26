@@ -1,0 +1,14 @@
+1;no;/Volumes/Public/Users/Julie/hdr=allow.xlsx;0,2;345@gmail.com;;test watermark;
+2;no;/Users/mini/Desktop/apitest/share/Iris Mechanism SE.par;1,3;test@qq.com;;test watermark;
+3;no;/Users/mini/Desktop/apitest/share/Audi R8 S.SLDASM;0,1,2,3;123@qq.com,23@gmail.com;share a file to myself;test watermark;
+4;no;/Users/mini/Desktop/apitest/share/tag.PDF;0,1;julie.fang@cn.nextlabs.com,1059081636@qq.com;share with real email;test watermark;
+5;no;/polia regu..SLDPRT;1,2;dora@cn.nextlabs.com;ddd;test watermark;
+6;no;/Users/mini/Desktop/apitest/share/json0kb.txt;2,3;123@qq.com;test;test watermark;
+7;no;/Users/mini/Desktop/apitest/share/bigsizefilerms-rhel74.7z;1,3;1059081636@qq.com;share a 1G file;test watermark;
+8;no;/Users/mini/Desktop/apitest/share/1-2018-05-25-11-02-00.xlsb.nxl;3;julie.fang@cn.nextlabs.com;share nxL FILE;test watermark;
+9;no;/Users/mini/Desktop/apitest/share/荷包蛋 copy.jpg;;123@qq.com;character;test watermark;
+10;no;/Users/mini/Desktop/apitest/share/json invalid nxl.txt.nxl;1;123456@qq.com;character;test watermark;
+11;no;/Users/mini/Desktop/apitest/share/nofile.txt;1;456@qq.com;no file to share;test watermark;
+12;no;/Users/mini/Desktop/apitest/share/xltm.xltm;0,1;invalidemail.com;llalal;test watermark;
+13;no;/Users/mini/Desktop/apitest/share/1-2018-06-05-16-39-54.pptx.nxl;1;123456@qq.com;character;test watermark;
+14;yes;/Users/mini/Desktop/apitest/share/json1.txt;0,1,2,3;joanna.chen@cn.nextlabs.com,julie.fang@cn.nextlabs.com;abcdefghi;test watermark;

@@ -1,0 +1,9 @@
+diff a/QA_TestCode/RMD-WindowsAPI-Gtest/SDKtest_User.cpp b/QA_TestCode/RMD-WindowsAPI-Gtest/SDKtest_User.cpp	(rejected hunks)
+@@ -114,7 +114,6 @@
+ 
+ 	uint64_t usage = 0;
+ 	uint64_t totalquota = 0;
+-	cout << "GetMyDriveInfo? "<<res.GetCode() << endl;
+ 	res = puser->GetMyDriveInfo(usage, totalquota);
+ 	cout << "GetMyDriveInfo? " << res.GetCode() << endl;
+ 	cout << usage << " " << totalquota << endl;

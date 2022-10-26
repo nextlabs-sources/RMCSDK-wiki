@@ -1,0 +1,17 @@
+{
+   "statusCode":200,
+   "message":"OK",
+   "serverTime":1505267953762,
+   "results":{
+      "fileName":"image-2017-09-13-09-59-08.jpeg.nxl",
+      "duid":"820255E9C6691C55C56D58AC399CE988",
+      "filePathId":"/nxl_myvault_nxl/image-2017-09-13-09-59-08.jpeg.nxl",
+      "newSharedList":[
+         "user1@dummy.com"
+      ],
+      "alreadySharedList":[
+         "user2@dummy.com"
+      ],
+      "transactionId":"48c3fb8b-0534-4bf1-9944-b08a8b278044"
+   }
+}

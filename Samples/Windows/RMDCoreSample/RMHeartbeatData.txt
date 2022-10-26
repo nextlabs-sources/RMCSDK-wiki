@@ -1,0 +1,42 @@
+{
+    "statusCode": 200,
+    "message": "OK",
+    "serverTime": 1520401503023,
+    "results": {
+        "heartbeatFrequency": 1000,
+        "policyConfigData": [
+            {
+                "tenantName": "48726a20-493e-4258-8d3d-25ae75793138",
+                "policyBundleTimeStamp": 1520401254866,
+                "policyBundle": "ID 73 STATUS APPROVED POLICY \"ROOT_73/PKPOLICY\"\r    DESCRIPTION \"\"\r\n    ATTRIBUTE TRUE_ALLOW\r\n    TAG tenant=\"48726a20-493e-4258-8d3d-25ae75793138\"\r\n    TAG pktag=\"PKTAG\"\r\n    FOR TRUE\r\n    ON RIGHT_VIEW\r\n    BY TRUE\r\n    DO allow\r\n    ON deny DO log\r\n\nID 75 STATUS APPROVED POLICY \"ROOT_75/SkyDRM policy\"\r    ATTRIBUTE TRUE_ALLOW\r\n    TAG tenant=\"48726a20-493e-4258-8d3d-25ae75793138\"\r\n    FOR TRUE\r\n    ON TRUE\r\n    BY TRUE\r\n    DO allow\r\n    ON deny DO log\r\n",
+                "configurationModifiedTimeStamp": 1517998870135,
+                "watermarkConfig": {},
+                "classificationCategories": []
+            },
+            {
+                "tenantName": "5994bdab-880c-4704-8a84-2f90d884d572",
+                "policyBundleTimeStamp": 1520401255229,
+                "policyBundle": "ID 76 STATUS APPROVED POLICY \"ROOT_76/TenantPolicy\"\r    DESCRIPTION \"5994bdab-880c-4704-8a84-2f90d884d572\"\r\n    ATTRIBUTE TRUE_ALLOW\r\n    TAG tenant=\"5994bdab-880c-4704-8a84-2f90d884d572\"\r\n    FOR TRUE\r\n    ON TRUE\r\n    BY TRUE\r\n    DO allow\r\n    ON deny DO log\r\n",
+                "configurationModifiedTimeStamp": 1519891154798,
+                "watermarkConfig": {},
+                "classificationCategories": [
+                    {
+                        "name": "Sensitivity",
+                        "multiSelect": false,
+                        "mandatory": false,
+                        "labels": [
+                            {
+                                "name": "Sensitivity",
+                                "default": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "watermarkConfig": {
+            "serialNumber": "f8cf145d",
+            "content": "{\r\n\"text\": \"$(User)\\n $(Date) $(Time)\",\r\n\"transparentRatio\": 70,\r\n\"fontName\": \"Arial Unicode MS\",\r\n\"fontSize\": 26,\r\n\"fontColor\": \"#008000\",\r\n\"rotation\": \"Anticlockwise\",\r\n\"repeat\": true,\r\n\"density\": \"Dense\"\r\n}"
+        }
+    }
+}

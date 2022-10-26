@@ -1,0 +1,58 @@
+{
+    "statusCode": 200,
+    "message": "Authorized",
+    "serverTime": 1526278702322,
+    "extra": {
+        "userId": 21,
+        "ticket": "55F23B75BA953CAAB8B9754F54CBE8F1",
+        "tenantId": "48726a20-493e-4258-8d3d-25ae75793138",
+        "ttl": 1526365087606,
+        "name": "Abraham Lincoln",
+        "email": "abraham.lincoln@qapf1.qalab01.nextlabs.com",
+        "memberships": [
+            {
+                "id": "m24@skydrm.com",
+                "type": 0,
+                "tenantId": "48726a20-493e-4258-8d3d-25ae75793138",
+                "projectId": 3
+            },
+            {
+                "id": "m65@t-d0fb1eabcfc94b20984c5816071bc004",
+                "type": 0,
+                "tenantId": "5994bdab-880c-4704-8a84-2f90d884d572",
+                "projectId": 5
+            },
+            {
+                "id": "m67@t-fc00458990ec4975833bc4f8e2157e44",
+                "type": 0,
+                "tenantId": "ae54a444-cab5-481c-9d03-198e9cbee267",
+                "projectId": 39
+            }
+        ],
+        "defaultTenant": "skydrm.com",
+        "defaultTenantUrl": "https://sudong.nextlabs.com/rms",
+        "attributes": {
+            "aduser": [
+                "abraham.lincoln"
+            ],
+            "Company": [
+                "biflex"
+            ],
+            "Department": [
+                "HR"
+            ],
+            "addomain": [
+                "qapf1.qalab01.nextlabs.com"
+            ],
+            "displayName": [
+                "Abraham Lincoln"
+            ],
+            "objectSid": [
+                "S-1-5-21-2018228179-1005617703-974104760-1200"
+            ],
+            "email": [
+                "abraham.lincoln@qapf1.qalab01.nextlabs.com"
+            ]
+        }
+    }
+}		
